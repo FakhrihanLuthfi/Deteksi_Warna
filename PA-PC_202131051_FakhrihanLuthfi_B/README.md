@@ -8,7 +8,7 @@ Project UAS Segmentasi Mendeteksi Warna
 
  [FakhrihanLuthfi](https://github.com/FakhrihanLuthfi)
 
-
+ [Referensi Jurnal]([https://github.com/FakhrihanLuthfi](https://www.researchgate.net/publication/356849873_Deteksi_Warna_Manggis_Menggunakan_Pengolahan_Citra_dengan_Opencv_Python))
 
 Penjelasan Program 
 
