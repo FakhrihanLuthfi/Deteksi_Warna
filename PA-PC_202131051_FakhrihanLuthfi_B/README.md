@@ -8,7 +8,7 @@ Project UAS Segmentasi Mendeteksi Warna
 Proses deteksi warna diawali dengan mengkonversi ruang warna citra RGB (Red, Green, Blue) menjadi HSV (Hue, Saturation, Value). Selanjutnya proses klasifikasi warna dilakukan berdasarkan pengelompokan nilai Hue.
 Model  HSV ini membutuhkan  warna dasar RGB sebagai acuan dalam pendeteksian warna.
 
-Pda  penelitian  ini  menggunakan  metode pengolahan  citra  deteksi  warna  dalam  melakukan pendeteksian buah dan membedakan sesuai kategorinya berdasarkan warna kulit  pada buahnya.  Pengolahan  citra  ini  di  jalankan  menggunakan program python dan library open cv sehingga peneliti dapat meng-ekstrak informasi dari sebuah citra.
+Pada  penelitian  ini  menggunakan  metode pengolahan  citra  deteksi  warna  dalam  melakukan pendeteksian buah dan membedakan sesuai kategorinya berdasarkan warna kulit  pada buahnya.  Pengolahan  citra  ini  di  jalankan  menggunakan program python dan library open cv sehingga peneliti dapat meng-ekstrak informasi dari sebuah citra.
 
 Penjelasan Program 
 
