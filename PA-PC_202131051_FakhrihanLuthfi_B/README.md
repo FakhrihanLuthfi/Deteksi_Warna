@@ -5,11 +5,23 @@ Project UAS Segmentasi Mendeteksi Warna
 
  [Referensi Jurnal](https://www.researchgate.net/publication/356849873_Deteksi_Warna_Manggis_Menggunakan_Pengolahan_Citra_dengan_Opencv_Python)
  
-Proses deteksi warna diawali dengan mengkonversi ruang warna citra RGB (Red, Green, Blue) menjadi HSV (Hue, Saturation, Value). Selanjutnya proses klasifikasi warna dilakukan berdasarkan pengelompokan nilai Hue.
-Model  HSV ini membutuhkan  warna dasar RGB sebagai acuan dalam pendeteksian warna.
+Penelitian ini membahas tentang deteksi warna manggis menggunakan pengolahan citra dengan OpenCV Python. Pada citra atau gambar, setiap warna diwakili oleh kombinasi warna RGB (Red, Green, Blue). Setiap komponen warna memiliki nilai pembacaan dari 0 hingga 255, yang mewakili rentang 0% hingga 100%.
 
-Pada  penelitian  ini  menggunakan  metode pengolahan  citra  deteksi  warna  dalam  melakukan pendeteksian buah dan membedakan sesuai kategorinya berdasarkan warna kulit  pada buahnya.  Pengolahan  citra  ini  di  jalankan  menggunakan program python dan library open cv sehingga peneliti dapat meng-ekstrak informasi dari sebuah citra.
+Dalam model RGB, jika setiap warna primer diberikan nilai 100%, misalnya RGB (255,255,255), maka warna yang dihasilkan adalah putih. Sementara itu, kombinasi dua warna primer dengan nilai 100% dan satu warna primer dengan nilai 0%, seperti RGB (255,0,255), (255,255,0), (0,255,255), akan menghasilkan warna sekunder yang dikenal sebagai CMY (Cian, Magenta, Yellow).
 
+Dalam pendeteksian warna, penelitian ini menggunakan ruang warna HSV (Hue, Saturation, Value). Ruang warna HSV merupakan transformasi dari kubus warna RGB menjadi kerucut. Komponen HSV terdiri dari Hue (sudut warna), Value (tingkat kecerahan), dan Saturation (tingkat saturasi).
+
+Grayscale, atau tingkat keabuan, digunakan untuk menyederhanakan model citra. Dalam grayscale, nilai piksel berkisar antara 0 hingga 255, dengan nilai 255 mewakili warna putih dan nilai 0 mewakili warna hitam.
+
+Thresholding adalah teknik yang digunakan untuk mengubah citra hitam-putih menjadi citra biner. Dalam thresholding, piksel-piksel citra dikelompokkan ke dalam dua kelas, yaitu hitam (0) dan putih (255), berdasarkan ambang batas tertentu.
+
+Morfologi adalah teknik pengolahan citra yang melibatkan operasi dilasi dan erosi. Dilasi digunakan untuk memfilter noise dan memperbesar segmen objek citra, sedangkan erosi digunakan untuk memperjelas bagian yang berwarna hitam dan memperkecil segmen yang berwarna putih pada citra.
+
+OpenCV Python merupakan library yang digunakan dalam penelitian ini. OpenCV adalah library sumber terbuka yang dapat digunakan untuk mengolah gambar dan video. OpenCV mendukung berbagai bahasa pemrograman, termasuk Python, dan menyediakan berbagai fitur untuk pengolahan citra.
+
+Penelitian ini menggunakan metode pengolahan citra dan deteksi warna dengan menggunakan OpenCV Python untuk mendeteksi warna Buah. Metode ini melibatkan ekstraksi informasi warna dan pemanfaatan fitur-fitur OpenCV untuk pemrosesan citra.
+
+Dalam kesimpulannya, penelitian ini memberikan kontribusi dalam pengembangan metode deteksi warna manggis menggunakan pengolahan citra dengan OpenCV Python. Metode tersebut dapat digunakan dalam aplikasi pengenalan atau klasifikasi warna untuk mengidentifikasi warna kulit manggis dalam citra secara otomatis.
 Penjelasan Program 
 
 berikut Library yang di gunakan adalah cv2 , numpy dan matplotlib
