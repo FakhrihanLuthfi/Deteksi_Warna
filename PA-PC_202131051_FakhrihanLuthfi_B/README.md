@@ -5,7 +5,6 @@ Project UAS Segmentasi Mendeteksi Warna
 
  [Referensi Jurnal](https://www.researchgate.net/publication/356849873_Deteksi_Warna_Manggis_Menggunakan_Pengolahan_Citra_dengan_Opencv_Python)
  
-Teori
 Tujuan dari deteksi warna buah dalam pengolahan citra adalah untuk secara otomatis mengenali, mengklasifikasikan, memisahkan, dan menghitung buah berdasarkan warna kulitnya. Deteksi warna buah melibatkan penggunaan metode pengolahan citra dan analisis warna untuk mengidentifikasi dan memahami informasi warna yang terkandung dalam citra buah.
 
 Proses deteksi warna buah dimulai dengan memecah citra menjadi komponen warna utama menggunakan model warna RGB atau ruang warna lain seperti HSV. Dalam model RGB, setiap piksel dalam citra memiliki komponen merah (R), hijau (G), dan biru (B). Nilai intensitas ini mencerminkan kombinasi warna yang membentuk warna kulit buah. Misalnya, kombinasi tinggi pada komponen merah dan rendah pada komponen hijau dan biru dapat menunjukkan warna kulit buah yang merah.
