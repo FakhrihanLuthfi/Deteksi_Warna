@@ -27,6 +27,14 @@ Penggunaan OpenCV Python dalam deteksi warna buah menjadi penting karena OpenCV 
 
 Dalam kesimpulannya, deteksi warna buah dalam pengolahan citra memiliki tujuan utama untuk mengoptimalkan dan mengotomatisasi proses identifikasi, klasifikasi, pemisahan, dan penghitungan buah berdasarkan warna kulitnya. Metode pengolahan citra dan analisis warna digunakan untuk mengolah citra buah, memisahkan piksel-piksel warna kulit buah, dan mengklasifikasikan buah berdasarkan warna. Deteksi warna buah memiliki berbagai aplikasi praktis dalam industri pertanian, pemrosesan buah, industri makanan, serta penelitian ilmiah dan pengembangan teknologi. Penggunaan teknologi deteksi warna buah dapat membantu meningkatkan kualitas produk, efisiensi pertanian, dan konsistensi produk makanan yang menggunakan buah sebagai bahan baku.
 
+Langkah - Langkah Yang Dilakukan Untuk Membuat Program
+Langkah 1: Persiapkan image (dataset) beberapa buah yang warnanya berbeda
+
+Langkah 2: Install dependencies, beberapa library yang diperlukan seperti numpy, cv2, dan matplotlib
+
+Langkah 3: Mulai lakukan proses dengan langkah-langkah seperti membaca gambar. Kemudian hasil deteksi dilakukan proses perubahan dari BGR ke HSV.
+
+Langkah 4: Hasil output diperhatikan, jika berhasil maka selesai dan jika tidak maka balik ke langkah 1 dengan memepersiapkan dataset yang baik dan terbaca.
 
 berikut Library yang di gunakan adalah cv2 , numpy dan matplotlib
 ```python
